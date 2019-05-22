@@ -1,0 +1,356 @@
+<html>
+<head>
+	<script type="text/javascript"></script>
+	 
+	<script>
+           
+
+    function calculate() {
+	
+	var h = document.getElementById('quantity').value;
+			var l = document.getElementById('cost').value;
+			var result = h * l;
+			document.getElementById('lblRes').innerHTML = result;
+
+
+
+    }
+
+</script>
+</head>
+<head><title>menu card</title></head>
+<head>
+<style>
+body {
+  background-color: pink;
+}
+</style>
+</head>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+</style>
+</head>
+<body>
+
+
+
+
+
+<marquee><h2>BREAKFAST!!!</h2></marquee>
+<form action="display.php" method="post">
+<table>
+ 
+<tr>
+ <th align="rigth">select</th>
+<th align="right">menus</th>
+<th align="right">quantity</th> 
+<th align="rigth">cost</th>
+<th align="rigth"> total</th></tr>
+
+	<tr>
+	
+<td><input type="checkbox" value="idly" name="ch1"/>
+<td>Idly</td>
+<td>
+	<select class="form-control" id="quantity" name="q1" onChange="calculate();">
+   
+    <option>1</option> 
+    <option>2</option> 
+	<option>3</option> 
+	<option>4</option> 
+</select></td>
+
+&nbsp;&nbsp;
+		&nbsp;
+		
+<td>  
+
+			
+			 <input type="text" id="cost"  name="c1" onChange="calculate();"/>
+		</td>
+		
+		
+		&nbsp;&nbsp;
+			
+		 &nbsp;&nbsp;
+			
+				
+			
+			<td>
+			
+		<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+			</td>
+</tr>
+<tr>
+ 
+			
+
+				
+<td><input type="checkbox" value="Dosai" name="ch2" />
+<td>Dosai</td>	
+<td><select class="form-control" id="quantity" name="q2" onChange="calculate();">
+    
+    <option>1</option> 
+    <option>2</option> 
+	<option>3</option> 
+	<option>4</option> 
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c2" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+			</td>	
+</tr>
+		
+		
+	
+<tr>
+			
+		
+<td><input type="checkbox" value="Pongal" name="ch3"/>
+<td>Pongal</td>
+<td><select class="form-control" id="quantity" name="q3" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c3" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Upma" name="ch4"/>
+<td>Upma</td>
+<td><select class="form-control" id="quantity" name="q4" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c4" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Coffee" name="ch5"/>
+<td>Coffee</td>
+<td><select class="form-control" id="quantity" name="q5" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c5" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Vada" name="ch6"/>
+<td>Vada</td>
+<td><select class="form-control" id="quantity" name="q6" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c6" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Tea" name="ch7"/>
+<td>Tea</td>
+<td><select class="form-control" id="quantity" name="q7" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c7" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Juice" name="ch8"/>
+<td>Juice</td>
+<td><select class="form-control" id="quantity" name="q8" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c8" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+<tr>
+			
+		
+<td><input type="checkbox" value="Sweet" name="ch9"/>
+<td>Sweet</td>
+<td><select class="form-control" id="quantity" name="q9" onChange="calculate();">
+    
+    <option>1</option> 
+    
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+
+</select></td>
+&nbsp;&nbsp;
+			&nbsp;
+<td> <input type="text" id="cost" name="c9" onChange="calculate();"/></td>
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+
+			 
+		<td>	
+			
+			
+			
+			<label id="lblRes"> <!-- a Label to locate result in it -->
+			 00
+			</label>
+					</td>
+</tr>
+</table>		
+
+		
+
+			
+<center><input  type="submit" value="Submit" name="submit"/></center>
+		
+
+</form>
+	
+
+
+</body>
+
+
+</html>
